@@ -1,0 +1,13 @@
+((author "Olin Shivers, Aubrey Jaffer, John Cowan")
+ (maintainer "Sören Tempel")
+
+ ;; The bitwise-{60,core}.scm files are under a free use license.
+ ;; See: http://wiki.call-cc.org/eggs-licensing#free-use
+ (license "Public Domain/Free Use")
+
+ (synopsis "SRFI 151: Bitwise Operations")
+ (version "1.0.0")
+ (category data)
+ (test-dependencies test)
+ (components
+   (extension srfi-151)))

@@ -34,7 +34,7 @@
               ((positive? n) (logcnt n 0))
               (else 0)))))
 
-  (include "bitwise-33.scm")
-  (include "bitwise-60.scm")
-  (include "bitwise-other.scm")
+  (include "srfi-151/bitwise-33.scm")
+  (include "srfi-151/bitwise-60.scm")
+  (include "srfi-151/bitwise-other.scm")
 )
