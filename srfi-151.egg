@@ -5,7 +5,7 @@
  (license "MIT")
 
  (synopsis "SRFI 151: Bitwise Operations")
- (version "1.0.1")
+ (version "1.0.2")
  (category data)
  (test-dependencies test)
  (components
