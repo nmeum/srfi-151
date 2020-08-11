@@ -9,4 +9,10 @@
  (category data)
  (test-dependencies test)
  (components
-   (extension srfi-151)))
+   (extension srfi-151
+     (source "srfi-151.scm")
+     (source-dependencies
+       "./srfi-151/bitwise-other.scm"
+       "./srfi-151/bitwise-60.scm"
+       "./srfi-151/bitwise-33.scm"
+       "./srfi-151/srfi-151.scm"))))
